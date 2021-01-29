@@ -1,0 +1,15 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100vh;
+}
+.home__row {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+}

@@ -1,0 +1,28 @@
+.header {
+  height: 90px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c4c4c4;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.header__left {
+  margin-left: 10px;
+  color: black;
+}
+.header__rigth {
+  display: flex;
+}
+.header__rigthUserName {
+  font-size: 24;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.header__rigthUserProfilePhoto {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
